@@ -21,6 +21,12 @@ To:       #define MOTHERBOARD BOARD_CREALITY_V427
 Change:   #define CUSTOM_MACHINE_NAME "Ender-3 Pro V1.5"\
 To:       #define CUSTOM_MACHINE_NAME "Ender-3 32bits" // Or any name you'd like to
 
+Change:   #define SERIAL_PORT 0
+To:       #define SERIAL_PORT 2
+
+Change:   //#define SERIAL_PORT_2 0
+To:       #define SERIAL_PORT_2 3
+
 Change:   //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN\
 To:       #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN // Enable BLTouch probe pins (white and black wires) to be connected to Z-\
 or\
